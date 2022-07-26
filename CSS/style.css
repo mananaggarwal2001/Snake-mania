@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Baloo+Bhai+2:wght@700;800&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Bree+Serif&family=Knewave&family=New+Rocker&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('../img/bg.jpg');
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#score{
+    position: absolute;
+    top:9px;
+    right: 200px;
+    color:white;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+}
+
+#board {
+    background: linear-gradient(rgb(173, 255, 173), rgb(255, 255, 151));
+    height: 92vmin;
+    /* vh or vw which one is the smaller will be vmin */
+    width: 90vmin;
+    border: 4px solid black;
+    /* To define the area occupy by the snake we have */
+    display: grid;
+    grid-template-rows: repeat(25, 1fr);
+    /* 1fr means 1 unit of the area */
+    grid-template-columns: repeat(25, 1fr);
+}
+
+.head {
+    background: linear-gradient(rgb(255, 0, 0),rgb(21, 21, 21));
+    border: 0.25vmin solid white;
+    border-radius: 120px;
+    transform: scale(1.2);
+}
+
+/* For the body of the snake we have the element */
+.snake{
+    background-color: purple;
+    border: 0.25vmin solid white;
+    border-radius: 120px;
+}
+
+.food {
+    background-image: linear-gradient(green,rgb(201, 250, 111));
+    border: 0.25vmin solid black;
+    border-radius: 120px;
+    /* For Creation of the snake. */
+}
