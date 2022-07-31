@@ -15,4 +15,4 @@ cd Snake (Press Tab For AutoCompletion)
 4. Start the **Live Server** and Enjoy the Game !!!
 
 
-### Here is the Link to the Game **[Snake Mafia]( http://mananaggarwal.me/Snake-mania/)**
+### Here is the Link to the Game **[Snake Mania]( http://mananaggarwal.me/Snake-mania/)**
