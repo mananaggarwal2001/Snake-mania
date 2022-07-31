@@ -1,0 +1,9 @@
+.playlinkclass{
+    position: relative;
+    bottom: 1em;
+}
+
+.playlinkclass:hover{
+    opacity: 1;
+    text-decoration: none;
+}
